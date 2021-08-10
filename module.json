@@ -96,7 +96,7 @@
   "download": "https://raw.githubusercontent.com/World-Smiths/abbr/main/package.zip",
   "license": "https://raw.githubusercontent.com/World-Smiths/abbr/main/LICENSE.md",
   "readme": "https://raw.githubusercontent.com/World-Smiths/abbr/main/README.md",
-  "bugs": "https://discord.gg/xXxXxXxX", // unqiue discord invite link which must match the one in the README and must appear on the Creators Dashboard (see https://github.com/World-Smiths/documentation/blob/main/wiki/discord-invite-link.md)
+  "bugs": "https://discord.gg/xXxXxXxX", // unqiue discord invite link which must match the one in the README (see https://github.com/World-Smiths/documentation/blob/main/wiki/discord-invite-link.md)
   "changelog": "https://raw.githubusercontent.com/World-Smiths/abbr/main/CHANGELOG.md",
   "dependencies": [
     {

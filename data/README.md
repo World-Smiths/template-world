@@ -2,7 +2,7 @@
 
 This directory contains the database files used by FoundryVTT
 
-| Folder/File           |
+| Files                 |
 | --------------------- |
 | **data/actors.db**    |
 | **data/chat.db**      |
@@ -16,5 +16,5 @@ This directory contains the database files used by FoundryVTT
 | **data/playlists.db** |
 | **data/scenes.db**    |
 | **data/settings.db**  |
-| **data/tables.db** |
-| **data/users.db**  |
+| **data/tables.db**    |
+| **data/users.db**     |

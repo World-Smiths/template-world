@@ -1,7 +1,5 @@
 # Adventure Name
 
-A brief description of the adventure
-
 **System:**
 
 **Starting Level:**
