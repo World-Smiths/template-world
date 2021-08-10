@@ -1,0 +1,120 @@
+// replace all instances of `abbr` with the abbreviation of your world including type and suffix
+// see [Naming Conventions](../../wiki/conventions.md) for more info
+// remove all comments from this as well to make it valid JSON
+{
+  "name": "abbr",
+  "title": "Full Name Here",
+  "description": "[see the wiki](../../wiki/conventions.md#manifest-description)",
+  "version": "0.x.x", // world version
+  "minimumCoreVersion": "0.8.8",
+  "compatibleCoreVersion": "0.8.8",
+  // Make sure to replace WORLD NAME with the full name of the world
+  // Only include the entries that your world uses
+  "packs": [ // Actors, Items, Journal Entries, Macro Commands, Playlists, Rollable Tables or Scenes
+    {
+      "label": "Actors (WORLD NAME)",
+      "entity": "Actor",
+      "name": "actors",
+      "path": "packs/actors.db",
+      "system": "dnd5e",
+      "module": "abbr",
+      "private": false
+    },
+    {
+      "label": "Items (WORLD NAME)",
+      "entity": "Item",
+      "name": "items",
+      "path": "packs/items.db",
+      "system": "dnd5e",
+      "module": "abbr",
+      "private": false
+    },
+    {
+      "label": "Journal Entries (WORLD NAME)",
+      "entity": "JournalEntry",
+      "name": "journals",
+      "path": "packs/journals.db",
+      "system": "dnd5e",
+      "module": "abbr",
+      "private": false
+    },
+    {
+      "label": "Macro Commands (WORLD NAME)",
+      "entity": "Macro",
+      "name": "macros",
+      "path": "packs/macros.db",
+      "system": "dnd5e",
+      "module": "abbr",
+      "private": false
+    },
+    {
+      "label": "Playlists (WORLD NAME)",
+      "entity": "Playlist",
+      "name": "playlists",
+      "path": "packs/playlists.db",
+      "system": "dnd5e",
+      "module": "abbr",
+      "private": false
+    },
+    {
+      "label": "RollTables (WORLD NAME)",
+      "entity": "RollTable",
+      "name": "rolltables",
+      "path": "packs/rolltables.db",
+      "system": "dnd5e",
+      "module": "abbr",
+      "private": false
+    },
+    {
+      "label": "Scenes (WORLD NAME)",
+      "entity": "Scene",
+      "name": "scenes",
+      "path": "packs/scenes.db",
+      "system": "dnd5e",
+      "module": "abbr",
+      "private": false
+    }
+  ],
+  "languages": [], // leave this empty unless you are including language file in your world
+  "authors": [
+    {
+      "name": "Publisher Name",
+      "url": "https://publisher.com/"
+    }
+  ],
+  "author": "Foundry Worlds Team",
+  "keywords": [
+    "some",
+    "keywords",
+    "which",
+    "describe",
+    "the",
+    "world"
+  ],
+  "url": "https://world-smiths.github.io/page/main.html",
+  "manifest": "https://raw.githubusercontent.com/World-Smiths/abbr/main/world.json",
+  "download": "https://raw.githubusercontent.com/World-Smiths/abbr/main/package.zip",
+  "license": "https://raw.githubusercontent.com/World-Smiths/abbr/main/LICENSE.md",
+  "readme": "https://raw.githubusercontent.com/World-Smiths/abbr/main/README.md",
+  "bugs": "https://discord.gg/xXxXxXxXxX", // unqiue discord invite link which must match the one in the README and must appear on the Creators Dashboard (see ../../wiki/discord-invite-link.md)
+  "changelog": "https://raw.githubusercontent.com/World-Smiths/abbr/main/CHANGELOG.md",
+  "dependencies": [
+    {
+      "name": "Module Name",
+      "type": "module",
+      "manifest": "https://raw.githubusercontent.com/user/repo/main/module.json"
+    }
+  ],
+  "manifestPlusVersion": "1.2.0",
+  "media": [
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/World-Smiths/abbr/main/cover.webp" // link to a cover image
+    }
+  ],
+  "coreVersion": "0.8.8",
+  "system": "dnd5e",
+  "systemVersion": "1.3.6",
+  "minimumSystemVersion": "1.3.6",
+  "compatibleSystemVersion": "1.3.6"
+}
