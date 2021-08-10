@@ -37,7 +37,7 @@ Please do.
 
 Click [here](<link>) for more info on getting started.
 
-Connect with the community - `put a unique discord invite link here (see ../wiki/discord-invite-link.md)`
+Connect with the community - `put a unique discord invite link here (see https://github.com/World-Smiths/documentation/blob/main/wiki/discord-invite-link.md)`
 
 ## Dependencies
 
