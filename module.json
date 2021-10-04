@@ -6,8 +6,8 @@
   "title": "Full Name Here",
   "description": "[see the wiki](https://github.com/World-Smiths/documentation/blob/main/wiki/conventions.md#manifest-description)",
   "version": "0.x.x", // world version
-  "minimumCoreVersion": "0.8.8",
-  "compatibleCoreVersion": "0.8.8",
+  "minimumCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "0.8.9",
   // Make sure to replace WORLD NAME with the full name of the world
   // Only include the entries that your world uses
   "packs": [ // Actors, Items, Journal Entries, Macro Commands, Playlists, Rollable Tables or Scenes

@@ -6,8 +6,8 @@
   "title": "Full Name Here",
   "description": "[see the wiki](../../wiki/conventions.md#manifest-description)",
   "version": "0.x.x", // world version
-  "minimumCoreVersion": "0.8.8",
-  "compatibleCoreVersion": "0.8.8",
+  "minimumCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "0.8.9",
   "packs": [],
   "languages": [], // leave this empty unless you are including language file in your world
   "authors": [

@@ -28,14 +28,10 @@ Be careful with the zip version; DO NOT paste the folder as: `\Data\worlds\abbr\
 
 ## Feedback and Contribution
 
-Want to suggest changes or improvements? Notify of errors or bugs? 
+Want to suggest changes or improvements? Notify of errors or bugs?
 Want to contribute to this world or similar projects?
 
-Please do.
-
-Click [here](<link>) for more info on getting started.
-
-Connect with the community - `put a unique discord invite link here (see https://github.com/World-Smiths/documentation/blob/main/wiki/discord-invite-link.md)`
+[Join our Discord community](`put a unique discord invite link here (see https://github.com/World-Smiths/documentation/blob/main/wiki/discord-invite-link.md)`)
 
 ## Dependencies
 
