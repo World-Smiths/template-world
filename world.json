@@ -6,17 +6,13 @@
   "title": "Full Name Here",
   "description": "[see the wiki](../../wiki/conventions.md#manifest-description)",
   "version": "0.x.x", // world version
-  "minimumCoreVersion": "0.8.9",
-  "compatibleCoreVersion": "0.8.9",
-  "packs": [],
-  "languages": [], // leave this empty unless you are including language file in your world
+  "author": "", // author names
   "authors": [
     {
       "name": "Publisher Name",
       "url": "https://publisher.com/"
     }
   ],
-  "author": "World Smiths",
   "keywords": [
     "some",
     "keywords",
@@ -26,12 +22,23 @@
     "world"
   ],
   "url": "https://world-smiths.github.io/page/main.html",
-  "manifest": "https://raw.githubusercontent.com/World-Smiths/abbr/main/world.json",
-  "download": "https://raw.githubusercontent.com/World-Smiths/abbr/main/package.zip",
   "license": "https://raw.githubusercontent.com/World-Smiths/abbr/main/LICENSE.md",
   "readme": "https://raw.githubusercontent.com/World-Smiths/abbr/main/README.md",
   "bugs": "https://discord.gg/xXxXxXxX", // unqiue discord invite link which must match the one in the README (see ../../wiki/discord-invite-link.md)
   "changelog": "https://raw.githubusercontent.com/World-Smiths/abbr/main/CHANGELOG.md",
+  "flags": {
+    "allowBugReporter": true
+  },
+  "scripts": [
+    "scripts/world.js"
+  ],
+  "esmodules": [],
+  "styles": [
+    "styles/ws.css"
+  ],
+  "languages": [], // leave this empty unless you are including language file in your world
+  "packs": [],
+  "system": "dnd5e",
   "dependencies": [
     {
       "name": "Module Name",
@@ -39,6 +46,15 @@
       "manifest": "https://raw.githubusercontent.com/user/repo/main/module.json"
     }
   ],
+  "socket": false,
+  "manifest": "https://raw.githubusercontent.com/World-Smiths/abbr/main/world.json",
+  "download": "https://raw.githubusercontent.com/World-Smiths/abbr/main/package.zip",
+  "protected": false,
+  "background": "worlds/abbr/scenes/backgrounds/start.webp",
+  "coreVersion": "0.8.8",
+  "resetKeys": false,
+  "safeMode": false,
+  "systemVersion": "1.3.6",
   "manifestPlusVersion": "1.2.0",
   "media": [
     {
@@ -46,10 +62,6 @@
       "url": "https://raw.githubusercontent.com/World-Smiths/abbr/main/cover.webp" // link to a cover image
     }
   ],
-  "coreVersion": "0.8.8",
-  "system": "dnd5e",
-  "systemVersion": "1.3.6",
   "minimumSystemVersion": "1.3.6",
   "compatibleSystemVersion": "1.3.6",
-  "background": "worlds/abbr/scenes/backgrounds/start.webp"
 }
