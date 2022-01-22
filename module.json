@@ -1,120 +1,118 @@
 // replace all instances of `abbr` with the abbreviation of your world including type and suffix
-// see [Naming Conventions](https://github.com/World-Smiths/documentation/blob/main/wiki/conventions.md) for more info
-// remove all comments from this as well to make it valid JSON
+// remove all comments from this file to make it valid JSON
 {
   "name": "abbr",
   "title": "Full Name Here",
-  "description": "[see the wiki](https://github.com/World-Smiths/documentation/blob/main/wiki/conventions.md#manifest-description)",
-  "version": "0.x.x", // world version
-  "minimumCoreVersion": "0.8.9",
-  "compatibleCoreVersion": "0.8.9",
-  // Make sure to replace WORLD NAME with the full name of the world
-  // Only include the entries that your world uses
-  "packs": [ // Actors, Items, Journal Entries, Macro Commands, Playlists, Rollable Tables or Scenes
-    {
-      "label": "Actors (WORLD NAME)",
-      "entity": "Actor",
-      "name": "actors",
-      "path": "packs/actors.db",
-      "system": "dnd5e",
-      "module": "abbr",
-      "private": false
-    },
-    {
-      "label": "Items (WORLD NAME)",
-      "entity": "Item",
-      "name": "items",
-      "path": "packs/items.db",
-      "system": "dnd5e",
-      "module": "abbr",
-      "private": false
-    },
-    {
-      "label": "Journal Entries (WORLD NAME)",
-      "entity": "JournalEntry",
-      "name": "journals",
-      "path": "packs/journals.db",
-      "system": "dnd5e",
-      "module": "abbr",
-      "private": false
-    },
-    {
-      "label": "Macro Commands (WORLD NAME)",
-      "entity": "Macro",
-      "name": "macros",
-      "path": "packs/macros.db",
-      "system": "dnd5e",
-      "module": "abbr",
-      "private": false
-    },
-    {
-      "label": "Playlists (WORLD NAME)",
-      "entity": "Playlist",
-      "name": "playlists",
-      "path": "packs/playlists.db",
-      "system": "dnd5e",
-      "module": "abbr",
-      "private": false
-    },
-    {
-      "label": "RollTables (WORLD NAME)",
-      "entity": "RollTable",
-      "name": "rolltables",
-      "path": "packs/rolltables.db",
-      "system": "dnd5e",
-      "module": "abbr",
-      "private": false
-    },
-    {
-      "label": "Scenes (WORLD NAME)",
-      "entity": "Scene",
-      "name": "scenes",
-      "path": "packs/scenes.db",
-      "system": "dnd5e",
-      "module": "abbr",
-      "private": false
-    }
-  ],
-  "languages": [], // leave this empty unless you are including language file in your world
+  "description": "<p>Description here</p>\n<hr />\n<blockquote>\n<p><strong>System: </strong>DnD5e<br /><strong>Starting Level: </strong>Any<br /><strong>Length:</strong> Short multi-session (10-12 hours)<br /><strong>Language:</strong> English</p>\n</blockquote>\n<hr />\n<p>World Smiths is a community of world builders creating high-quality world content for Foundry VTT.</p>\n<div style=\"display:flex;gap:1em\"><a style=\"flex:100%\" href=\"https://world-smiths.github.io/page/\" target=\"_blank\" rel=\"noopener\"><button type=\"button\">Our Projects</button></a><a style=\"flex:100%\" href=\"https://discord.gg/2YCFD8fxG7\" target=\"_blank\" rel=\"noopener\"><button type=\"button\">Our Discord</button></a></div>",
+  "author": "World Smiths",
   "authors": [
+    {
+      "name": "World Smiths",
+      "url": "https://world-smiths.github.io/page"
+    },
     {
       "name": "Publisher Name",
       "url": "https://publisher.com/"
     }
   ],
-  "author": "Foundry Worlds Team",
-  "keywords": [
-    "some",
-    "keywords",
-    "which",
-    "describe",
-    "the",
-    "world"
-  ],
   "url": "https://world-smiths.github.io/page/main.html",
-  "manifest": "https://raw.githubusercontent.com/World-Smiths/abbr/main/world.json",
-  "download": "https://raw.githubusercontent.com/World-Smiths/abbr/main/package.zip",
   "license": "https://raw.githubusercontent.com/World-Smiths/abbr/main/LICENSE.md",
   "readme": "https://raw.githubusercontent.com/World-Smiths/abbr/main/README.md",
-  "bugs": "https://discord.gg/xXxXxXxX", // unqiue discord invite link which must match the one in the README (see https://github.com/World-Smiths/documentation/blob/main/wiki/discord-invite-link.md)
+  "bugs": "https://discord.gg/xXxXxXxX", // see ../../wiki/discord-invite-link.md
   "changelog": "https://raw.githubusercontent.com/World-Smiths/abbr/main/CHANGELOG.md",
+  "flags": {
+    "allowBugReporter": true
+  },
+
+  "version": "0.x.x",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": 9,
+
+  "scripts": [],
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "styles": [
+    "styles/ws.css"
+  ],
+  "languages": [], // leave this empty unless you are including language file in your world
+  // Only include the entries that your world uses
+  "packs": [ // Actors, Items, Journal Entries, Macro Commands, Playlists, RollTables or Scenes
+    {
+      "name": "actors",
+      "label": "ABBR",
+      "path": "packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "items",
+      "label": "ABBR",
+      "path": "packs/items.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "journals",
+      "label": "ABBR",
+      "path": "packs/journal.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry",
+      "system": "dnd5e"
+    },
+    {
+      "name": "macros",
+      "label": "ABBR",
+      "path": "packs/macros.db",
+      "entity": "Macro",
+      "type": "Macro",
+      "system": "dnd5e"
+    },
+    {
+      "name": "playlists",
+      "label": "ABBR",
+      "path": "packs/playlists.db",
+      "entity": "Playlist",
+      "type:": "Playlist",
+      "system": "dnd5e"
+    },
+    {
+      "name": "tables",
+      "label": "ABBR",
+      "path": "packs/tables.db",
+      "entity": "RollTable",
+      "type": "RollTable",
+      "system": "dnd5e"
+    },
+    {
+      "name": "scenes",
+      "label": "ABBR",
+      "path": "packs/scenes.db",
+      "entity": "Scene",
+      "type": "Scene",
+      "system": "dnd5e"
+    }
+  ],
+
+  "system": ["dnd5e"],
   "dependencies": [
     {
-      "name": "Module Name",
+      "name": "module-name",
       "type": "module",
       "manifest": "https://raw.githubusercontent.com/user/repo/main/module.json"
     }
   ],
+
+  "manifest": "https://raw.githubusercontent.com/World-Smiths/abbr/main/world.json",
+  "download": "https://raw.githubusercontent.com/World-Smiths/abbr/main/package.zip",
+  
   "manifestPlusVersion": "1.2.0",
   "media": [
     {
       "type": "cover",
       "url": "https://raw.githubusercontent.com/World-Smiths/abbr/main/cover.webp" // link to a cover image
     }
-  ],
-  "coreVersion": "0.8.8",
-  "system": "dnd5e",
-  "systemVersion": "1.3.6",
-  "minimumSystemVersion": "1.3.6",
-  "compatibleSystemVersion": "1.3.6"
+  ]
 }

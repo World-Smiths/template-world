@@ -1,13 +1,15 @@
 // replace all instances of `abbr` with the abbreviation of your world including type and suffix
-// see [Naming Conventions](../../wiki/conventions.md) for more info
-// remove all comments from this as well to make it valid JSON
+// remove all comments from this file to make it valid JSON
 {
   "name": "abbr",
   "title": "Full Name Here",
-  "description": "[see the wiki](../../wiki/conventions.md#manifest-description)",
-  "version": "0.x.x", // world version
-  "author": "", // author names
+  "description": "<p>Description here</p>\n<hr />\n<blockquote>\n<p><strong>System: </strong>DnD5e<br /><strong>Starting Level: </strong>Any<br /><strong>Length:</strong> Short multi-session (10-12 hours)<br /><strong>Language:</strong> English</p>\n</blockquote>\n<hr />\n<p>World Smiths is a community of world builders creating high-quality world content for Foundry VTT.</p>\n<div style=\"display:flex;gap:1em\"><a style=\"flex:100%\" href=\"https://world-smiths.github.io/page/\" target=\"_blank\" rel=\"noopener\"><button type=\"button\">Our Projects</button></a><a style=\"flex:100%\" href=\"https://discord.gg/2YCFD8fxG7\" target=\"_blank\" rel=\"noopener\"><button type=\"button\">Our Discord</button></a></div>",
+  "author": "World Smiths",
   "authors": [
+    {
+      "name": "World Smiths",
+      "url": "https://world-smiths.github.io/page"
+    },
     {
       "name": "Publisher Name",
       "url": "https://publisher.com/"
@@ -16,42 +18,47 @@
   "url": "https://world-smiths.github.io/page/main.html",
   "license": "https://raw.githubusercontent.com/World-Smiths/abbr/main/LICENSE.md",
   "readme": "https://raw.githubusercontent.com/World-Smiths/abbr/main/README.md",
-  "bugs": "https://discord.gg/xXxXxXxX", // unqiue discord invite link which must match the one in the README (see ../../wiki/discord-invite-link.md)
+  "bugs": "https://discord.gg/xXxXxXxX", // see ../../wiki/discord-invite-link.md
   "changelog": "https://raw.githubusercontent.com/World-Smiths/abbr/main/CHANGELOG.md",
   "flags": {
     "allowBugReporter": true
   },
-  "scripts": [
+"version": "0.x.x",
+"scripts": [],
+"esmodules": [
     "scripts/world.js"
   ],
-  "esmodules": [],
   "styles": [
     "styles/ws.css"
   ],
   "languages": [], // leave this empty unless you are including language file in your world
   "packs": [],
+
   "system": "dnd5e",
   "dependencies": [
     {
-      "name": "Module Name",
+      "name": "module-name",
       "type": "module",
       "manifest": "https://raw.githubusercontent.com/user/repo/main/module.json"
     }
   ],
   "socket": false,
+
   "manifest": "https://raw.githubusercontent.com/World-Smiths/abbr/main/world.json",
   "download": "https://raw.githubusercontent.com/World-Smiths/abbr/main/package.zip",
   "protected": false,
+  
   "background": "worlds/abbr/scenes/backgrounds/start.webp",
-  "coreVersion": "9.238",
+  "coreVersion": "9.242",
   "resetKeys": false,
   "safeMode": false,
   "systemVersion": "1.5.6",
+
   "manifestPlusVersion": "1.2.0",
   "media": [
     {
       "type": "cover",
-      "url": "https://raw.githubusercontent.com/World-Smiths/abbr/main/cover.webp" // link to a cover image
+      "url": "https://raw.githubusercontent.com/World-Smiths/abbr/main/cover.webp"
     }
   ]
 }
