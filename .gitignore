@@ -14,3 +14,15 @@
 
 # OSX
 .DS_Store
+
+# Foundry VTT
+*.lock
+
+# Never needed database files
+messages.db
+drawings.db
+fog.db
+settings.db
+users.db
+
+# Not used in this world database files
