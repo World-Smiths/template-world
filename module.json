@@ -47,6 +47,14 @@
       "system": "dnd5e"
     },
     {
+      "name": "cards",
+      "label": "ABBR",
+      "path": "packs/cards.db",
+      "entity": "Card",
+      "type": "Card",
+      "system": "dnd5e"
+    },
+    {
       "name": "items",
       "label": "ABBR",
       "path": "packs/items.db",
