@@ -5,6 +5,7 @@ This directory contains the packsbase files for the compendiums distributed in t
 | Files                  |
 | ---------------------- |
 | **packs/actors.db**    |
+| **packs/cards.db**     |
 | **packs/items.db**     |
 | **packs/journal.db**   |
 | **packs/macros.db**    |
