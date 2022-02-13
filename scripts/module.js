@@ -1,6 +1,6 @@
 (() => {
     const adventureName = "ABBR";
-    const moduleName = "abbr";
+    const moduleName = "abbr-module";
 
     /**
      * welcomeJournal (if set) will automatically be imported and opened after the first activation of a
@@ -34,28 +34,28 @@
      * Set to the following to disable:
      *   const creaturePacks = [];
      */
-    const creaturePacks = ["abbr.actors"];
+    const creaturePacks = ["abbr-module.actors"];
     /**
      * journalPacks is a list of compendium packs to look in for Journals by name (in prioritised order).
      * The first entry here assumes that you have a Journal pack in your module with the "name" of "journals".
      * Set to the following to disable:
      *   const journalPacks = [];
      */
-    const journalPacks = ["abbr.journal"];
+    const journalPacks = ["abbr-module.journal"];
     /**
      * macroPacks is a list of compendium packs to look in for Macros by name (in prioritised order).
      * The first entry here assumes that you have a Macro pack in your module with the "name" of "macros".
      * Set to the following to disable:
      *   const macroPacks = [];
      */
-    const macroPacks = ["abbr.macros"];
+    const macroPacks = ["abbr-module.macros"];
     /**
      * playlistPacks is a list of compendium packs to look in for Playlists by name (in prioritised order).
      * The first entry here assumes that you have a Playlist pack in your module with the "name" of "playlists".
      * Set to the following to disable:
      *   const playlistPacks = [];
      */
-    const playlistPacks = ["abbr.playlists"];
+    const playlistPacks = ["abbr-module.playlists"];
     /**
      * additionalModulePacks is a list of modules whose compendium packs can be looked in for entities by name (in prioritised order).
      * Enter just the "name" of the module/s or system/s you want to be considered.
