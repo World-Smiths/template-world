@@ -107,6 +107,10 @@
   "system": ["dnd5e"],
   "dependencies": [
     {
+      "name": "scene-packer",
+      "type": "module"
+    },
+    {
       "name": "module-name",
       "type": "module",
       "manifest": "https://raw.githubusercontent.com/user/repo/main/module.json"
