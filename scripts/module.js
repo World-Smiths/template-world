@@ -55,7 +55,7 @@
      * Set to the following to disable:
      *   const playlistPacks = [];
      */
-    const playlistPacks = [];
+    const playlistPacks = ["abbr.playlists"];
     /**
      * additionalModulePacks is a list of modules whose compendium packs can be looked in for entities by name (in prioritised order).
      * Enter just the "name" of the module/s or system/s you want to be considered.
