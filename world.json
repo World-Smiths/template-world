@@ -23,9 +23,9 @@
   "flags": {
     "allowBugReporter": true
   },
-"version": "0.x.x",
-"scripts": [],
-"esmodules": [
+  "version": "0.x.x",
+  "scripts": [],
+  "esmodules": [
     "scripts/world.js"
   ],
   "styles": [
